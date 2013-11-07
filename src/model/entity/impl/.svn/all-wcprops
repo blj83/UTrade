@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/team10/!svn/ver/124/UTrade/tags/src/model/entity/impl
+END
+CategoryImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/team10/!svn/ver/124/UTrade/tags/src/model/entity/impl/CategoryImpl.java
+END
+PaymentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/team10/!svn/ver/124/UTrade/tags/src/model/entity/impl/PaymentImpl.java
+END
+BidImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/team10/!svn/ver/124/UTrade/tags/src/model/entity/impl/BidImpl.java
+END
+ItemImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/team10/!svn/ver/124/UTrade/tags/src/model/entity/impl/ItemImpl.java
+END
+UserImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/team10/!svn/ver/124/UTrade/tags/src/model/entity/impl/UserImpl.java
+END
+CategoryRelationshipImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/team10/!svn/ver/124/UTrade/tags/src/model/entity/impl/CategoryRelationshipImpl.java
+END
+AttributeValueImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/team10/!svn/ver/124/UTrade/tags/src/model/entity/impl/AttributeValueImpl.java
+END
+BillingImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/team10/!svn/ver/124/UTrade/tags/src/model/entity/impl/BillingImpl.java
+END
+AttributeImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/team10/!svn/ver/124/UTrade/tags/src/model/entity/impl/AttributeImpl.java
+END

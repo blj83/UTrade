@@ -1,0 +1,56 @@
+<project name="UTradeBuilder">
+	
+	<property file="build.properties" />
+	
+	<path id="classpath">	<!--sets the id 'classpath' equal to: ...-->
+		<fileset dir="lib">  <!-- was "/opt/classes" -->
+			<include name="servlet-api.jar"/>
+			<include name="freemarker.jar"/>
+			<include name="mysql-connector-java-5.1.22-bin.jar"/>
+		</fileset>
+	</path>
+	
+	<target name="compile">
+		<echo>Compile source files</echo>
+		<javac srcdir="${src.dir}" destdir="${class.dir}" includeantruntime="false">
+			<classpath refid="classpath"/>
+		</javac>
+	</target>
+	<!--
+	<target name="copy" depends="compile">
+		<copy todir="${build.dir}/WEB-INF/templates" flatten="true">
+			<fileset dir="${src.dir}">
+				<include name="**/*.ftl"/>
+			</fileset>
+		</copy>
+	</target>
+	-->
+	<!--
+	<target name="war" depends="copy">
+		<echo>Building the war file</echo>
+		<war destfile="${project.name}.war" webxml="${build.dir}/WEB-INF/web.xml">
+			<fileset dir="${build.dir}" excludes="*.svn,**/web.xml,README"/>
+		</war>
+	</target>
+	
+	<target name="deploy" depends="war">
+		<echo>Deploying the war file</echo>
+		<copy overwrite="yes"
+		file="${project.name}.war"
+		todir="${deploy.dir}"/>
+		<chmod file="${deploy.dir}/${project.name}.war" perm="a+r"/>
+		<echo>Deploying the html files</echo>
+		<copy file="${web.content}/Clubs.html" todir="${html.dir}" overwrite="yes"/>
+		<chmod file="${html.dir}/Clubs.html" perm="a+r"/>
+		<copy file="${src.dir}/servlets/CreateClub/CreateClub.html" todir="${html.dir}" overwrite="yes" flatten="true"/>
+		<chmod file="${html.dir}/CreateClub.html" perm="a+r"/>
+		<copy file="${src.dir}/servlets/FindClubMembers/FindClubMembers.html" todir="${html.dir}" overwrite="yes" flatten="true"/>
+		<chmod file="${html.dir}/FindClubMembers.html" perm="a+r"/>
+		<copy file="${src.dir}/servlets/CreatePerson/CreatePerson.html" todir="${html.dir}" overwrite="yes" flatten="true"/>
+		<chmod file="${html.dir}/CreatePerson.html" perm="a+r"/>
+		<copy file="${src.dir}/servlets/JoinClub/JoinClub.html" todir="${html.dir}" overwrite="yes" flatten="true"/>
+		<chmod file="${html.dir}/JoinClub.html" perm="a+r"/>
+	</target>
+	
+	-->
+</project>

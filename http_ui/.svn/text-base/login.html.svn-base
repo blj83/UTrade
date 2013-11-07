@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>UTrade | Log In</title>
+    </head>
+    <body>
+        <h1>Log In</h1>
+        <form method="post" action="<insert login servlet here>">
+            <p>Username: <input name="username" type="text" size="30"/></p>
+            <p>Password: <input name="password" type="password" size="30"/>
+    		<input value="Log in" type="submit"></p>
+			<p><a href="signup.html">Sign up</a></p>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="static/navbar.css" rel="stylesheet" type="text/css">
+	<title>UTrade | Profile</title>
+</head>
+<body>	
+	<div class="horizontal">
+		<h1 style="text-align:center">UTrade</h1>
+		<ul>
+			<li><a href="<home servlet here>">Home</a></li>
+			<li><a href="<profile servlet here>">Profile</a></li>
+			<li><a href="<browser servlet here>">Browse</a></li>
+			<li><a href="<log out servlet here>">Log Out</a></li>
+		</ul>
+	</div>
+	<br>
+	<div id="top" style="float:left; width:100%">
+		<h2>User Info</h2>
+		<p>username</p>
+		<p>address@uga.edu</p>
+	<br>
+	<hr>
+	</div>
+	<div id="left_column" style="width:50%; float:left;">
+		<h2>Items You're Bidding On</h2>
+	<table  border="1">
+		<tr>
+		<td>Item Name</td>
+		<td>Current Price</td>
+		<td>Expiration Time</td>
+		</tr>
+		<tr>
+		<td>Item Name</td>
+		<td>Current Price</td>
+		<td>Expiration Time</td>
+		</tr>
+		<tr>
+		<td>Item Name</td>
+		<td>Current Price</td>
+		<td>Expiration Time</td>
+		</tr>
+		<tr>
+		<td>Item Name</td>
+		<td>Current Price</td>
+		<td>Expiration Time</td>
+		</tr>
+		<tr>
+		<td>Item Name</td>
+		<td>Current Price</td>
+		<td>Expiration Time</td>
+		</tr>
+		<tr>
+		<td>Item Name</td>
+		<td>Current Price</td>
+		<td>Expiration Time</td>
+		</tr>
+		<tr>
+		<td>Item Name</td>
+		<td>Current Price</td>
+		<td>Expiration Time</td>
+		</tr>
+		<tr>
+		<td>Item Name</td>
+		<td>Current Price</td>
+		<td>Expiration Time</td>
+		</tr>
+		<tr>
+		<td>Item Name</td>
+		<td>Current Price</td>
+		<td>Expiration Time</td>
+		</tr>
+		<tr>
+		<td>Item Name</td>
+		<td>Current Price</td>
+		<td>Expiration Time</td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="right_column" style="width:50%; float:right;">
+		<h2>Items You're Selling</h2>
+	<table  border="1">
+		<tr>
+		<td>Item Name</td>
+		<td>Current Price</td>
+		<td>Expiration Time</td>
+		</tr>
+		<tr>
+		<td>Item Name</td>
+		<td>Current Price</td>
+		<td>Expiration Time</td>
+		</tr>
+		<tr>
+		<td>Item Name</td>
+		<td>Current Price</td>
+		<td>Expiration Time</td>
+		</tr>
+		<tr>
+		<td>Item Name</td>
+		<td>Current Price</td>
+		<td>Expiration Time</td>
+		</tr>
+		<tr>
+		<td>Item Name</td>
+		<td>Current Price</td>
+		<td>Expiration Time</td>
+		</tr>
+		<tr>
+		<td>Item Name</td>
+		<td>Current Price</td>
+		<td>Expiration Time</td>
+		</tr>
+		<tr>
+		<td>Item Name</td>
+		<td>Current Price</td>
+		<td>Expiration Time</td>
+		</tr>
+		<tr>
+		<td>Item Name</td>
+		<td>Current Price</td>
+		<td>Expiration Time</td>
+		</tr>
+		<tr>
+		<td>Item Name</td>
+		<td>Current Price</td>
+		<td>Expiration Time</td>
+		</tr>
+		<tr>
+		<td>Item Name</td>
+		<td>Current Price</td>
+		<td>Expiration Time</td>
+		</tr>
+		</table>
+	</div>
+</body>
+</html>

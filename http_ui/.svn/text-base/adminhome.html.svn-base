@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>UTrade | Admin Home</title>
+	<link href="static/tree_files/mktree.css" rel="stylesheet" type="text/css"> 
+	<link href="static/navbar.css" rel="stylesheet" type="text/css">
+	<script src="static/tree_files/mktree.js" type="text/javascript"></script>
+</head>
+<body>
+<h1 style="text-align:center">UTrade</h1>	
+	<div class="horizontal">
+		<div>
+		<ul>
+			<li><a href="<home servlet here>">Home</a></li>
+			<li><a href="<profile servlet here>">Profile</a></li>
+			<li><a href="<browser servlet here>">Browse</a></li>
+			<li><a href="<log out servlet here>">Log Out</a></li>
+		</ul>
+		</div>
+	</div>
+	<br>
+
+<div id="left_column" style="width:50%;float:left;">
+<ul class="mktree">
+	<li>Category 1
+	<li>Category 2
+	<li>Category 3
+	<li>Category 4
+	<ul>
+		<li>Subcategory 1
+			<ul>
+				<li>Item 1
+				<li>Item 2
+			</ul>
+		<li>Subcategory 2
+			<ul>
+				<li>Item 3
+				<li>Item 4
+			</ul>
+		<li>Subcategory 3
+			<ul>
+				<li>Item 5
+				<li>Item 6
+				<li>Item 7
+			</ul>
+	</ul>
+</ul>
+</div>
+
+<div id="right_column" style="width:50%;float:right;">
+<h3>Create new category</h3>
+<form>
+<p>attr1<input name="attr1" type="text" size="20"/></p>
+<p>attr2<input name="attr2" type="text" size="20"/></p>
+<p>attr3<input name="attr3" type="text" size="20"/></p>
+<p>attr4<input name="attr4" type="text" size="20"/></p>
+<p>attr5<input name="attr5" type="text" size="20"/></p>
+<p><input value="Submit" type="submit"></p>
+</form>
+</div>
+
+</body>
+</html>

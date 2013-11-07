@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/team10/!svn/ver/124/UTrade/tags/src/model/entity
+END
+CategoryRelationship.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/team10/!svn/ver/124/UTrade/tags/src/model/entity/CategoryRelationship.java
+END
+AttributeValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/team10/!svn/ver/124/UTrade/tags/src/model/entity/AttributeValue.java
+END
+Billing.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/team10/!svn/ver/124/UTrade/tags/src/model/entity/Billing.java
+END
+Attribute.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/team10/!svn/ver/124/UTrade/tags/src/model/entity/Attribute.java
+END
+ModelFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/team10/!svn/ver/124/UTrade/tags/src/model/entity/ModelFactory.java
+END
+Entity.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/team10/!svn/ver/124/UTrade/tags/src/model/entity/Entity.java
+END
+Category.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/team10/!svn/ver/124/UTrade/tags/src/model/entity/Category.java
+END
+Payment.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/team10/!svn/ver/124/UTrade/tags/src/model/entity/Payment.java
+END
+Bid.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/team10/!svn/ver/124/UTrade/tags/src/model/entity/Bid.java
+END
+Item.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/team10/!svn/ver/124/UTrade/tags/src/model/entity/Item.java
+END
+User.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/team10/!svn/ver/124/UTrade/tags/src/model/entity/User.java
+END

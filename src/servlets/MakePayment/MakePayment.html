@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>UTrade | Payment</title>
+        <link href="static/navbar.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<h1 style="text-align:center">UTrade</h1>	
+		<div class="horizontal">
+		<div>
+		<ul>
+			<li><a href="<home servlet here>">Home</a></li>
+			<li><a href="<profile servlet here>">Profile</a></li>
+			<li><a href="<browser servlet here>">Browse</a></li>
+			<li><a href="<log out servlet here>">Log Out</a></li>
+		</ul>
+		</div>
+		</div>
+		<br>
+        <h1>Make Payment</h1>
+        <form method="post" action="MakePayment">
+        	<p>Card Type: 
+        		<select name="cardType">
+  					<option>Visa</option>
+  					<option>Mastercard</option>
+  					<option>Discover</option>
+  					<option>American Express</option>
+  					<option>Capital One</option>
+				</select>
+			</p>
+			<p>Card Number: <input name="cardNum" type="text" size="20"/></p>
+            <p>Security Code: <input name="secCode" type="text" size="4"/></p>
+            <p>Expiration Date: <input name="expDate" value="mmddyyyy" type="text" size="20"/></p>
+    		<p><input value="Submit" type="submit"></p>
+        </form>
+    </body>
+</html>
+
